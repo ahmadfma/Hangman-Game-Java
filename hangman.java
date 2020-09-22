@@ -262,7 +262,7 @@ public class hangman {
                         Score += addScore;
                     } else {
                         chance--;   //if the input was entered previously then reduce chance
-                        addScore = addScore - 3;
+                        addScore = addScore - 2;
                         break;      //break for loop to avoid if there are same letter in another index
                     }
                 }
